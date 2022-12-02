@@ -1,21 +1,33 @@
-# weather-forecast
+# ReadMe Generator [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-## Description 
+## Description
+This repository contains an app that allows the user to answer command line prompts from the inquirer package in order to generate a professional readme for their own project.
 
-This [Weather Forecast Website](mattdack.github.io/weather-forecast) allows users to search with a valid city name to be provided with a 5 day forecast for that city. The site utilizes the openweathermap geo and data api in order to gather the relevant weather information. Previous searches are stored in local storage and generate a button for users to reload data from that location. Event tracking enables the initial search and previous search buttons. Javascript dynamically updates the page with new weather data based on user interaction. The site is responsive to different view port sizes.
+## Table of Contents
 
-## Screenshot of Webpage
-<img src="./assets/images/Website-Mock-up.png" alt="Screenshot of Webpage">
-
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Installation
+After cloning this repository, users will need to install the inquirer package in the working directory of this application. To do so utilize the command "npm init -y" followed by the command "npm i" in an integrated terminal of a code editor such as VS code.
 
-There is no installation required or capable with this repository. Running the index.html file in a default browser renders a landing page to begin loading weather data.
+## Usage
+Users should run the command "node index.js" in an integrated terminal to initialize the readme generator application. This will start a number of prompts that the user needs to respond to in order to generate a professional readme.
 
-## Usage 
+## License
+MIT covers the contents of this repository. Please refer to the license documentation for more information. You can do so by googling MIT.
 
-Enter a valid city name in the location element and select search to load a 5 day forecast for that location. Select the grey buttons to the left in order to load weather forecasts from past search locations. Currently, searching cities with duplicative names, i.e. Eureka, will return the first city from the openweathermap geo api and do not allow the user to clarify the search selection.
+## Contributing
+Matthew Dacanay is the sole contributor for this repository. Additional resources and references were used on an as needed basis.
 
-## Credits
+## Tests
+There is no testing suite or individual unit tests provided for the code in this repository.
 
- Matthew Dacanay created the entirety of this webpage. Technical concepts and public resources were referred to as needed. You can find other projects by Matthew at his [github page](github.com/mattdack).
+## Questions
+If you are interested in viewing more of my work, you can access public examples at [github page](github.com/mattdack)
+
+If you have questions about this project, you can contact me at mattdack@uw.edu

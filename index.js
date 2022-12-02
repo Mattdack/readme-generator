@@ -43,7 +43,7 @@ inquirer
       {
         type: 'list',
         message: 'Which license would you like to use to protect your project?',
-        choices: ["MIT", "Yale", "University of California"],
+        choices: ["MIT License", "Apache License 2.0", "GNU General Public License v3.0", "Mozilla Public License 2.0"],
         name: 'license',
       },
       {
@@ -58,8 +58,19 @@ inquirer
       },
   ])
   .then((response) => {
+    let badge = ``;
+    if (response.license === "MIT License") {
+      badge = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
+    } else if (response.license === "Apache License 2.0") {
+      badge = `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
+    }else if (response.license === "GNU General Public License v3.0") {
+      badge = `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`
+    } else {
+      badge = `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)`
+    } 
+
     const content = 
-`# ${response.title}
+`# ${response.title} ${badge}
 
 ## Description
 ${response.description}
@@ -74,7 +85,7 @@ ${response.description}
 - [Questions](#questions)
 
 ## Installation
-${response.installatio}
+${response.install}
 
 ## Usage
 ${response.usage}
@@ -89,7 +100,7 @@ ${response.contributing}
 ${response.tests}
 
 ## Questions
-If you are interested in viewing more of my work, you can access public examples at github.com/${response.github}
+If you are interested in viewing more of my work, you can access public examples at [github page](github.com/${response.github})
 
 If you have questions about this project, you can contact me at ${response.email}
 `
