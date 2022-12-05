@@ -100,7 +100,7 @@ ${response.contributing}
 ${response.tests}
 
 ## Questions
-If you are interested in viewing more of my work, you can access public examples at [github page](github.com/${response.github})
+If you are interested in viewing more of my work, you can access public examples at [github page](https://github.com/${response.github})
 
 If you have questions about this project, you can contact me at ${response.email}
 `

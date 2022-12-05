@@ -5,12 +5,16 @@ This repository contains an app that allows the user to answer command line prom
 
 ## Table of Contents
 
+- [Walk-through Video](#walkthrough)
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
+
+## Walkthrough Video
+[Click here to be redirected to the walkthrough video!](https://drive.google.com/file/d/17-7GtjcRUyps9j5kB170fwLHujMIZFjN/view)
 
 ## Installation
 After cloning this repository, users will need to install the inquirer package in the working directory of this application. To do so utilize the command "npm init -y" followed by the command "npm i" in an integrated terminal of a code editor such as VS code.
@@ -28,6 +32,6 @@ Matthew Dacanay is the sole contributor for this repository. Additional resource
 There is no testing suite or individual unit tests provided for the code in this repository.
 
 ## Questions
-If you are interested in viewing more of my work, you can access public examples at [github page](github.com/mattdack)
+If you are interested in viewing more of my work, you can access public examples at [github page](https://github.com/mattdack)
 
 If you have questions about this project, you can contact me at mattdack@uw.edu
