@@ -5,7 +5,7 @@ This repository contains an app that allows the user to answer command line prom
 
 ## Table of Contents
 
-- [Walk-through Video](#walkthrough)
+- [Tutorial Video](#tutorial-video)
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
@@ -13,7 +13,7 @@ This repository contains an app that allows the user to answer command line prom
 - [Tests](#tests)
 - [Questions](#questions)
 
-## Walkthrough Video
+## Tutorial Video
 [Click here to be redirected to the walkthrough video!](https://drive.google.com/file/d/17-7GtjcRUyps9j5kB170fwLHujMIZFjN/view)
 
 ## Installation
